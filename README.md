@@ -34,25 +34,25 @@ Usage: bogon-ip-updater.php [OPTIONS]
 
 Available options:
 
--u, --update                      *: Downloads bogon IP lists, merge by removing duplicates and write to output file
+-u, --update                        *: Downloads bogon IP lists, merge by removing duplicates and write to output file
 
--f, --force                        : Force update
+-f, --force                          : Force update
 
--r, --reload                       : Trigger reload command on list update
+-r, --reload                         : Trigger reload command on list update
 
--c \<command>, --command=<command>  : Set related service reload command
+-c \<command>, --command=\<command>  : Set related service reload command
 
--t <seconds>, --timeout=<seconds>  : Set download timeout
+-t \<seconds>, --timeout=\<seconds>  : Set download timeout
 
--n, --nocert                       : No certificate check
+-n, --nocert                         : No certificate check
 
--o <filename>, --output=<filename>*: Write IP list as a new raw text file (old file will be overwritten)
+-o \<filename>, --output=\<filename>*: Write IP list as a new raw text file (old file will be overwritten)
 
--s <urls>, --sources=<urls>        : Override download sources ("spamhaus", "cymru" keywords or space separated URLs)
+-s \<urls>, --sources=\<urls>        : Override download sources ("spamhaus", "cymru" keywords or space separated URLs)
 
--v, --version                      : Display version and license information
+-v, --version                        : Display version and license information
 
--h, --help                         : Display usage
+-h, --help                           : Display usage
 
  
 ## Examples
