@@ -1,3 +1,5 @@
+### This project is deprecated in favor of [ip-list-updater](https://github.com/vkucukcakar/ip-list-updater)
+
 # bogon-ip-updater
 
 Bogon IP list updater
@@ -22,11 +24,11 @@ Bogon IP list updater
 	$ git clone https://github.com/vkucukcakar/bogon-ip-updater.git
 
 	$ cp bogon-ip-updater/bogon-ip-updater.php /usr/local/bin/
-	
+
 * Give execute permission if not cloned from github
 
 	$ chmod +x /usr/local/bin/bogon-ip-updater.php
-	
+
 
 ## Usage
 
@@ -54,7 +56,7 @@ Available options:
 
 -h, --help                           : Display usage
 
- 
+
 ## Examples
 
 	$ bogon-ip-updater.php -u -o "/etc/bogon-ip-updater.txt"
@@ -62,7 +64,7 @@ Available options:
 	$ bogon-ip-updater.php -u --reload --command="myfirewall.sh -r" --output="/etc/bogon-ip-updater.txt"
 
 	$ bogon-ip-updater.php -u --output="/etc/bogon-ip-updater.txt" --sources="spamhaus cymru http://example.com/iplist.txt"
-	
+
 ## Caveats
 
 * Consider using IP sets (IPSET) if you are planning to use the ip list with iptables.
